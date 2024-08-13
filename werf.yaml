@@ -1,4 +1,4 @@
-project: prices-backend
+project: some-backend
 configVersion: 1
 deploy:
   namespaceSlug: false
