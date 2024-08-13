@@ -1,4 +1,6 @@
 version: '3.8'
 services:
   backend:
-    image: "${WERF_BACKEND_PHP_DOCKER_IMAGE_NAME}"
+    extends:
+      service: backend_common
+      file: ./docker-compose.common.yml

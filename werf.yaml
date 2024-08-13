@@ -5,4 +5,4 @@ deploy:
 
 ---
 image: backend
-fromImage: php:8.3.4-cli-alpine3.18
+from: php:8.3.4-cli-alpine3.18

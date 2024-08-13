@@ -1,0 +1,4 @@
+version: '3.8'
+services:
+  backend_common:
+    image: "${WERF_BACKEND_DOCKER_IMAGE_NAME}"
